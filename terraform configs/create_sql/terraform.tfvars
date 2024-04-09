@@ -1,0 +1,12 @@
+project_id          = "sound-habitat-418811"
+region              = "us-central1"
+instance_name       = "my-instance"
+db_version          = "MYSQL_8_0"
+tier                = "db-f1-micro"
+storage_type        = "PD_SSD"
+storage_size        = 10
+availability_type   = "ZONAL"
+maintenance_window_day = 7
+maintenance_window_hour = 0
+backup_start_time   = "05:00"
+insights_config_query_insights_enabled = true
