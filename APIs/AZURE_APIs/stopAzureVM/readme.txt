@@ -1,0 +1,1 @@
+az vm show --resource-group pfa_rg --name pfatestvm --query id --output tsv 
